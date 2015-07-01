@@ -1,5 +1,5 @@
 {
-    "name": "studysocial/omnypay-paypal",
+    "name": "studysocial/omnipay-paypal",
     "type": "library",
     "description": "Fork of PayPal gateway for Omnipay payment processing library",
     "keywords": [
