@@ -487,4 +487,10 @@ class RestGateway extends AbstractGateway
     {
         return $this->createRequest('\Omnipay\PayPal\Message\RestDeleteCardRequest', $parameters);
     }
+
+
+    public function payout(array $parameters = array())
+    {
+        return $this->createRequest('\Omnipay\PayPal\Message\RestPayoutRequest', $parameters);
+    }
 }
