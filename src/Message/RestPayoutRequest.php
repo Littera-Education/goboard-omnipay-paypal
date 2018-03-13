@@ -25,7 +25,7 @@ class RestPayoutRequest extends AbstractRestRequest
 
     public function getEndpoint()
     {
-        return parent::getEndpoint() . '/payments/payouts?sync_mode=true';
+        return parent::getEndpoint() . '/payments/payouts?sync_mode=false';
     }
 
 
